@@ -5,6 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500&family=Oswald:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
     <title>Hoja de personaje</title>
   </head>
   <body>
@@ -13,25 +22,66 @@
     </header>
     <main class="col-12">
       <div class="col-12">
-        <div class="col-4">Nombre del personaje</div>
+        <div class="col-4">
+          <input type="text" name="nompj" id="nompj" placeholder="Nombre del personaje"/><br />
+          <label for="nompj">Nombre del personaje</label>
+        </div>
         <div class="col-8">
-          <div class="col-3">Clase</div>
-          <div class="col-1">Nivel</div>
-          <div class="col-4">raza</div>
-          <div class="col-4">transfondo</div>
-          <div class="col-4">alineamiento</div>
-          <div class="col-4">nombre del jugador</div>
-          <div class="col-4">puntos de experiencia</div>
+          <div class="col-3">
+            <select name="" id=""></select><br>
+            <label for="">Clase</label> </div>
+          <div class="col-1">
+            <input type="number" name="" id="" min="1"/><br> Nivel</div>
+          <div class="col-4">
+            <select name="" id=""></select><br><label for="">Raza</label></div>
+          <div class="col-4">
+            <select name="" id=""></select><br><label for="">Trasfondo</label>
+          </div>
+          <div class="col-4">
+            <select name="Alineamiento" id="Alineamiento">
+              <option value="Legal Bueno">Legal Bueno</option>
+              <option value="Neutral Bueno">Neutral Bueno</option>
+              <option value="Caótico Bueno">Caótico Bueno</option>
+              <option value="Legal Neutral">Legal Neutral</option>
+              <option value="Verdadero Neutral">Verdadero Neutral</option>
+              <option value="Caótico Neutral">Caotico Neutral</option>
+              <option value="Legal Malo">Legal Malo</option>
+              <option value="Neutral Malo">Neutral Malo</option>
+              <option value="Caótico Malo">Caótico Malo</option>
+            </select><br>
+            <label for="Alineamiento">Alineamiento</label> </div>
+          <div class="col-4">
+            <input type="text" name="nomjug" id="nomjug" placeholder="Nombre del Jugador"/><br />
+            <label for="">Nombre del Jugador</label> </div>
+          <div class="col-4"><input type="number" name="" id="" min="1"/><br>puntos de experiencia</div>
         </div>
       </div>
       <div class="col-4">
         <div class="col-5">
-            <div class="col-12">fuerza</div>
-            <div class="col-12">destreza</div>
-            <div class="col-12">constitución</div>
-            <div class="col-12">inteligencia</div>
-            <div class="col-12">sabiduría</div>
-            <div class="col-12">carisma</div>
+          <div class="col-12">
+            <input type="number" name="" id="" min="1"/>
+            fuerza
+          </div>
+          <div class="col-12">
+            <input type="number" name="" id="" min="1"/>
+            destreza
+          </div>
+          <div class="col-12">
+            <input type="number" name="" id="" min="1"/>
+            constitución
+          </div>
+          <div class="col-12">
+            <input type="number" name="" id="" min="1"/>
+            inteligencia
+          </div>
+          <div class="col-12">
+            <input type="number" name="" id="" min="1"/>
+            sabiduría
+          </div>
+          <div class="col-12">
+            <input type="number" name="" id="" min="1"/>
+            carisma
+          </div>
         </div>
         <div class="col-7">
           <div>inspiracion</div>
@@ -52,24 +102,19 @@
       </div>
       <div class="col-4">
         <div>
-            <div class="col-4">clase de armadura</div>
-            <div class="col-4">iniciativa</div>
-            <div class="col-4">velocidad</div>
+          <div class="col-4">clase de armadura</div>
+          <div class="col-4">iniciativa</div>
+          <div class="col-4">velocidad</div>
         </div>
         <div class="col-12">
-        puntos de golpe 
-        maximos puntos de golpe actuales
-        puntos de golpe temporales
+          puntos de golpe maximos puntos de golpe actuales puntos de golpe
+          temporales
         </div>
-          <div class="col-6">
-          total dados de golpe
-        </div>
-        <div class="col-6"> 
-          exitos fallos salvaciones contra muerte
-        </div>
+        <div class="col-6">total dados de golpe</div>
+        <div class="col-6">exitos fallos salvaciones contra muerte</div>
         <div class="col-12">
-        nombre bonificador daño/tipo ataques y lanzamiento de conjuros
-        equipo</div>
+          nombre bonificador daño/tipo ataques y lanzamiento de conjuros equipo
+        </div>
       </div>
       <div class="col-4">
         <div>rasgos de personalidad</div>
