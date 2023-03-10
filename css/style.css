@@ -1,67 +1,85 @@
-.col-1 {
-  width: 8.33%;
-}
-.col-2 {
-  width: 16.66%;
-}
-.col-3 {
-  width: 25%;
-}
-.col-4 {
-  width: 33.33%;
-}
-.col-5 {
-  width: 41.66%;
-}
-.col-6 {
-  width: 50%;
-}
-.col-7 {
-  width: 58.33%;
-}
-.col-8 {
-  width: 66.66%;
-}
-.col-9 {
-  width: 75%;
-}
-.col-10 {
-  width: 83.33%;
-}
-.col-11 {
-  width: 91.66%;
-}
-.col-12 {
-  width: 100%;
+html{
+  font-size: 20px;
 }
 
-[class*="col-"] {
-  float: left;
-  padding: 10px;
-}
 
 * {
   box-sizing: border-box;
-  border: 0.5px solid black;
   text-align: center;
-  border-radius: 5px;
-  font-family: "Oswald", sans-serif;
-  font-weight: 600;
 }
 
-body {
-  background-color: #ffffcc;
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  border: 1px solid red;
+}
+body{
   margin-left: 10%;
   margin-right: 10%;
-}
-
-input,
-select {
-  font-family: "Shantell Sans", sans-serif;
-  width: 100%;
   background-color: #ffffcc;
+  
 }
 
-label{
-    font-size: 20px;
+#borde{
+  border: 5px solid black;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  border-radius: 20px;
+}
+
+fieldset{
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+
+label, legend{
+  font-size: 1rem;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 800;
+}
+
+select{
+  width: 100%;
+  font-family: "Shantell Sans", sans-serif;
+  background-color: #ffffcc;
+  font-size: 1rem;
+}
+
+textarea{
+  width: 100%;
+  font-family: "Shantell Sans", sans-serif;
+  background-color: #ffffcc;
+  font-size: 1rem;
+  text-align: left;
+}
+
+input[type="number"]{
+  width: 50%;
+ font-family: "Shantell Sans", sans-serif;
+  background-color: #ffffcc;
+  font-weight:700;
+  font-size: 1rem;
+}
+
+input[type="text"]{
+  width: 100%;
+  font-family: "Shantell Sans", sans-serif;
+  background-color: #ffffcc;
+  font-weight:700;
+  font-size: 1rem;
 }
