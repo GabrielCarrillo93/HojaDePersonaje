@@ -4,9 +4,12 @@ html{
 
 
 * {
+  color: #ffffff;
   box-sizing: border-box;
   text-align: center;
+  text-shadow: -1px 0 black, 0 1px #000000, 1px 0 black, 0 -1px black;
 }
+
 
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -26,11 +29,17 @@ html{
   padding: 15px;
   border: 1px solid red;
 }
+
+
 body{
   margin-left: 10%;
   margin-right: 10%;
-  background-color: #ffffcc;
+  background-color: #fff2c2;
   
+}
+
+h1{
+  font-size: 3rem;
 }
 
 #borde{
@@ -44,6 +53,7 @@ fieldset{
   width: 100%;
   border-radius: 10px;
   border: 2px solid black;
+  background-color: #c9bc94;
 }
 
 
@@ -69,7 +79,7 @@ textarea{
 }
 
 input[type="number"]{
-  width: 50%;
+  width: 75%;
  font-family: "Shantell Sans", sans-serif;
   background-color: #ffffcc;
   font-weight:700;
