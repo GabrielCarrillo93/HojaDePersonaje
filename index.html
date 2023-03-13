@@ -17,291 +17,313 @@
       href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
     <title>Hoja de personaje</title>
   </head>
   <body>
-    <div class="col-12" id="borde">
-    <header>
-      <h1>Hoja de Personaje</h1>
-    </header>
-    <main>
-      <div class="col-12">
-        <div class="col-3">
-          <input
-            type="text"
-            name="nompj"
-            id="nompj"
-            placeholder="Nombre del personaje"
-          /><br />
-          <label for="nompj">Nombre del personaje</label>
-
-          <fieldset>
-            <legend>Lvl</legend>
-            <input type="number" name="" id="" min="1" max="20" />
-          </fieldset>
-        </div>
-        <div class="col-9">
-          <div class="col-4">
+    
+      <header>
+        <h1>Hoja de Personaje</h1>
+      </header>
+      <main>
+          <div class="col-3">
+            <input type="text" name="nompj" id="nompj" placeholder="Nombre del personaje"/>
+            <label for="nompj">Nombre del personaje</label>
             <fieldset>
-              <legend>Raza</legend>
-              <select name="" id="">
-                <optgroup label="Manual del Jugador">
-                  <option value="Humano">Humano</option>
-                  <option value="Dracónido">Dracónido</option>
-                  <option value="Enano">Enano</option>
-                  <option value="Elfo">Elfo</option>
-                  <option value="Semi-elfo">Semi-elfo</option>
-                  <option value="Semi-orco">Semi-orco</option>
-                  <option value="Mediano">Mediano</option>
-                  <option value="Gnome">Gnome</option>
-                  <option value="Tiefling">Tiefling</option>
-                </optgroup>
-              </select>
+              <legend>Lvl</legend>
+              <input type="number" name="" id="" min="1" max="20" />
             </fieldset>
           </div>
+          <div class="col-9">
+            <div class="col-4">
+              <fieldset>
+                <legend>Raza</legend>
+                <select name="" id="">
+                  <optgroup label="Manual del Jugador">
+                    <option value="Humano">Humano</option>
+                    <option value="Dracónido">Dracónido</option>
+                    <option value="Enano">Enano</option>
+                    <option value="Elfo">Elfo</option>
+                    <option value="Semi-elfo">Semi-elfo</option>
+                    <option value="Semi-orco">Semi-orco</option>
+                    <option value="Mediano">Mediano</option>
+                    <option value="Gnome">Gnome</option>
+                    <option value="Tiefling">Tiefling</option>
+                  </optgroup>
+                </select>
+              </fieldset>
+            </div>
 
-          <div class="col-4">
-            <fieldset>
-              <legend>Clase</legend>
-              <select name="" id=""></select>
-            </fieldset>
+            <div class="col-4">
+              <fieldset>
+                <legend>Clase</legend>
+                <select name="" id=""></select>
+              </fieldset>
+            </div>
+            <div class="col-4">
+              <fieldset>
+                <legend>Trasfondo</legend>
+                <select name="" id=""></select>
+              </fieldset>
+            </div>
+
+            <div class="col-4">
+              <fieldset>
+                <legend>Alineamiento</legend>
+                <select name="Alineamiento" id="Alineamiento">
+                  <option value="Legal Bueno">Legal Bueno</option>
+                  <option value="Neutral Bueno">Neutral Bueno</option>
+                  <option value="Caótico Bueno">Caótico Bueno</option>
+                  <option value="Legal Neutral">Legal Neutral</option>
+                  <option value="Verdadero Neutral">Verdadero Neutral</option>
+                  <option value="Caótico Neutral">Caotico Neutral</option>
+                  <option value="Legal Malo">Legal Malo</option>
+                  <option value="Neutral Malo">Neutral Malo</option>
+                  <option value="Caótico Malo">Caótico Malo</option>
+                </select>
+              </fieldset>
+            </div>
+
+            <div class="col-4">
+              <fieldset>
+                <legend>Nombre del Jugador</legend>
+                <input
+                  type="text"
+                  name="nomjug"
+                  id="nomjug"
+                  placeholder="Nombre del Jugador"
+                />
+              </fieldset>
+            </div>
+
+            <div class="col-4">
+              <fieldset>
+                <legend>puntos de experiencia</legend>
+                <input type="number" name="" id="" min="1" />
+              </fieldset>
+            </div>
           </div>
-          <div class="col-4">
-            <fieldset>
-              <legend>Trasfondo</legend>
-              <select name="" id=""></select>
-            </fieldset>
-          </div>
 
-          <div class="col-4">
-            <fieldset>
-              <legend>Alineamiento</legend>
-              <select name="Alineamiento" id="Alineamiento">
-                <option value="Legal Bueno">Legal Bueno</option>
-                <option value="Neutral Bueno">Neutral Bueno</option>
-                <option value="Caótico Bueno">Caótico Bueno</option>
-                <option value="Legal Neutral">Legal Neutral</option>
-                <option value="Verdadero Neutral">Verdadero Neutral</option>
-                <option value="Caótico Neutral">Caotico Neutral</option>
-                <option value="Legal Malo">Legal Malo</option>
-                <option value="Neutral Malo">Neutral Malo</option>
-                <option value="Caótico Malo">Caótico Malo</option>
-              </select>
-            </fieldset>
-          </div>
+        <section class="col-4">
+            <div class="col-5">
+              <fieldset>
+                <input type="number" name="" id="" min="1" />
+                <input type="number" name="" id="" min="1" disabled />
+                <legend>fuerza</legend>
+              </fieldset>
+              <fieldset>
+                <input type="number" name="" id="" min="1" />
+                <input type="number" name="" id="" min="1" disabled />
+                <legend>destreza</legend>
+              </fieldset>
+              <fieldset>
+                <input type="number" name="" id="" min="1" />
+                <input type="number" name="" id="" min="1" disabled />
+                <legend>constitución</legend>
+              </fieldset>
+              <fieldset>
+                <input type="number" name="" id="" min="1" />
+                <input type="number" name="" id="" min="1" disabled />
+                <legend>inteligencia</legend>
+              </fieldset>
+              <fieldset>
+                <input type="number" name="" id="" min="1" />
+                <input type="number" name="" id="" min="1" disabled />
+                <legend>sabiduria</legend>
+              </fieldset>
+              <fieldset>
+                <input type="number" name="" id="" min="1" />
+                <input type="number" name="" id="" min="1" disabled />
+                <legend>carisma</legend>
+              </fieldset>
+            </div>
+            <div class="col-7">
+              inspiracion bonificador de competencia
+              <input type="checkbox" name="" id="" /><label for="">fuerza</label>
+              <input type="checkbox" name="" id="" /><label for=""
+                >destreza</label
+              >
+              <input type="checkbox" name="" id="" /><label for=""
+                >constitución</label
+              >
+              <input type="checkbox" name="" id="" /><label for=""
+                >inteligencia</label
+              >
+              <input type="checkbox" name="" id="" /><label for=""
+                >sabiduria</label
+              >
+              <input type="checkbox" name="" id="" /><label for="">carisma</label>
+              tiradas de salvacion
+              <input type="checkbox" name="" id="" /><label for=""
+                >acrobacias(dex)</label
+              >
+              <input type="checkbox" name="" id="" /><label for=""
+                >atletismo(fue)</label
+              >
+              <input type="checkbox" name="" id="" /><label for=""
+                >C. Arcano(int)</label
+              >
+              <input type="checkbox" name="" id="" /><label for=""
+                >engaño(car)</label
+              >
+              <input type="checkbox" name="" id="" /><label for=""
+                >historia(int)</label
+              >
+              <input type="checkbox" name="" id="" /><label for=""
+                >interpretacion(car)</label
+              >
+              <input type="checkbox" name="" id="" /><label for=""
+                >intimidacion(car)</label
+              >
+              <input type="checkbox" name="" id="" /><label for=""
+                >juego de manos(des)</label
+              >
+              <input type="checkbox" name="" id="" /><label for=""
+                >medicina(sab)</label
+              >
+              <input type="checkbox" name="" id="" /><label for=""
+                >naturaleza(int)</label
+              >
+              <input type="checkbox" name="" id="" /><label for=""
+                >percepcion(sab)</label
+              >
+              <input type="checkbox" name="" id="" /><label for=""
+                >perspicacia(sab)</label
+              >
+              <input type="checkbox" name="" id="" /><label for=""
+                >persuacion(car)</label
+              >
+              <input type="checkbox" name="" id="" /><label for=""
+                >religion(int)</label
+              >
+              <input type="checkbox" name="" id="" /><label for=""
+                >sigilo(des)</label
+              >
+              <input type="checkbox" name="" id="" /><label for=""
+                >supervivencia(sab)</label
+              >
+              <input type="checkbox" name="" id="" /><label for=""
+                >T. con animales(sab)</label
+              >
+              <hr />
+              habilidades
+            </div>
+            <div class="col-12">sabiduria pasiva</div>
+            <div class="col-12">
+              <textarea name="" id=""></textarea>
+              otras competencias e idiomas
+        </section>
+        
+        <section class="col-4">
+            <div class="col-12">
+              <div class="col-4">
+                <fieldset>
+                  <input type="number" name="" id="" min="1" />
+                  <legend>
+                    <img
+                      src="img/escudo.png"
+                      alt="Clase de armadura"
+                      width="20px"
+                    />
+                  </legend>
+                </fieldset>
+              </div>
+              <div class="col-4">
+                <fieldset>
+                  <input type="number" name="" id="" min="1" />
+                  <legend>
+                    <img
+                      src="img/caminar.png"
+                      alt="Iniciativa"
+                      width="20px"
+                      height="25px"
+                    />
+                  </legend>
+                </fieldset>
+              </div>
+              <div class="col-4">
+                <fieldset>
+                  <input type="number" name="" id="" min="1" />
+                  <legend>
+                    <img
+                      src="img/velocidad.png"
+                      alt="Velocidad"
+                      width="20px"
+                      height="25px"
+                    />
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+            <label for="" id="">puntos de golpe actuales</label>
+            <input type="number" name="" id="" disabled />
+            <label for="" id="">puntos de golpe temporales</label>
+            <input type="number" name="" id="" disabled />
+            <div class="col-6">
+              <label for="" id="">total</label>
+              <input type="number" name="" id="" disabled />
+              dados de golpe
+            </div>
+            <div class="col-6">
+              exitos <input type="checkbox" name="" id="" /><input
+                type="checkbox"
+                name=""
+                id=""
+              /><input type="checkbox" name="" id="" />
+              <br />
+              fallos
+              <input type="checkbox" name="" id="" /><input
+                type="checkbox"
+                name=""
+                id=""
+              /><input type="checkbox" name="" id="" />
+              <label for="" id="">salvaciones contra muerte</label>
+            </div>
+           
+            
+            <table>
+              <tr>
+                <th class="Tname">Nombre</th>
+                <th class="Tbon">Bonificador</th>
+                <th class="Tdan">Daño/Tipo</th>
+              </tr>
+              <tr>
+                <td class="Tname"></td>
+                <td class="Tbon"></td>
+                <td class="Tdan"></td>
+              </tr>
+              <tr>
+                <td class="Tname"></td>
+                <td class="Tbon"></td>
+                <td class="Tdan"></td>
+              </tr>
+              <tr>
+                <td class="Tname"></td>
+                <td class="Tbon"></td>
+                <td class="Tdan"></td>
+              </tr>
+            </table>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            ataques y lanzamiento de conjuros equipo
+        </section>
 
-          <div class="col-4">
-            <fieldset>
-              <legend>Nombre del Jugador</legend>
-              <input
-                type="text"
-                name="nomjug"
-                id="nomjug"
-                placeholder="Nombre del Jugador"
-              />
-            </fieldset>
-          </div>
-
-          <div class="col-4">
-            <fieldset>
-              <legend>puntos de experiencia</legend>
-              <input type="number" name="" id="" min="1" />
-            </fieldset>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-4">
-        <div class="col-5">
-          <fieldset>
-            <input type="number" name="" id="" min="1" />
-            <input type="number" name="" id="" min="1" disabled />
-            <legend>fuerza</legend>
-          </fieldset>
-
-          <fieldset>
-            <input type="number" name="" id="" min="1" />
-            <input type="number" name="" id="" min="1" disabled />
-            <legend>destreza</legend>
-          </fieldset>
-
-          <fieldset>
-            <input type="number" name="" id="" min="1" />
-            <input type="number" name="" id="" min="1" disabled />
-            <legend>constitución</legend>
-          </fieldset>
-
-          <fieldset>
-            <input type="number" name="" id="" min="1" />
-            <input type="number" name="" id="" min="1" disabled />
-            <legend>inteligencia</legend>
-          </fieldset>
-
-          <fieldset>
-            <input type="number" name="" id="" min="1" />
-            <input type="number" name="" id="" min="1" disabled />
-            <legend>sabiduria</legend>
-          </fieldset>
-
-          <fieldset>
-            <input type="number" name="" id="" min="1" />
-            <input type="number" name="" id="" min="1" disabled />
-            <legend>carisma</legend>
-          </fieldset>
-        </div>
-        <div class="col-7">
-          inspiracion bonificador de competencia
-          <input type="checkbox" name="" id="" /><label for="">fuerza</label>
-          <input type="checkbox" name="" id="" /><label for="">destreza</label>
-          <input type="checkbox" name="" id="" /><label for=""
-            >constitución</label
-          >
-          <input type="checkbox" name="" id="" /><label for=""
-            >inteligencia</label
-          >
-          <input type="checkbox" name="" id="" /><label for="">sabiduria</label>
-          <input type="checkbox" name="" id="" /><label for="">carisma</label>
-          tiradas de salvacion
-
-          <input type="checkbox" name="" id="" /><label for=""
-            >acrobacias(dex)</label
-          >
-          <input type="checkbox" name="" id="" /><label for=""
-            >atletismo(fue)</label
-          >
-          <input type="checkbox" name="" id="" /><label for=""
-            >C. Arcano(int)</label
-          >
-          <input type="checkbox" name="" id="" /><label for=""
-            >engaño(car)</label
-          >
-          <input type="checkbox" name="" id="" /><label for=""
-            >historia(int)</label
-          >
-          <input type="checkbox" name="" id="" /><label for=""
-            >interpretacion(car)</label
-          >
-          <input type="checkbox" name="" id="" /><label for=""
-            >intimidacion(car)</label
-          >
-          <input type="checkbox" name="" id="" /><label for=""
-            >juego de manos(des)</label
-          >
-          <input type="checkbox" name="" id="" /><label for=""
-            >medicina(sab)</label
-          >
-          <input type="checkbox" name="" id="" /><label for=""
-            >naturaleza(int)</label
-          >
-          <input type="checkbox" name="" id="" /><label for=""
-            >percepcion(sab)</label
-          >
-          <input type="checkbox" name="" id="" /><label for=""
-            >perspicacia(sab)</label
-          >
-          <input type="checkbox" name="" id="" /><label for=""
-            >persuacion(car)</label
-          >
-          <input type="checkbox" name="" id="" /><label for=""
-            >religion(int)</label
-          >
-          <input type="checkbox" name="" id="" /><label for=""
-            >sigilo(des)</label
-          >
-          <input type="checkbox" name="" id="" /><label for=""
-            >supervivencia(sab)</label
-          >
-          <input type="checkbox" name="" id="" /><label for=""
-            >T. con animales(sab)</label
-          >
-          <hr />
-          habilidades
-        </div>
-
-        <div class="col-12">sabiduria pasiva</div>
-
-        <div class="col-12">
-          <textarea name="" id=""></textarea>
-          otras competencias e idiomas
-        </div>
-      </div>
-      <div class="col-4">
-        <div class="col-12">
-        <div class="col-4">
-        <fieldset>
-          <input type="number" name="" id="" min="1" />
-          <legend><img src="img/escudo.png" alt="Clase de armadura" width="20px"></legend>
-        </fieldset>
-      </div>
-
-        <div class="col-4">
-        <fieldset>
-          <input type="number" name="" id="" min="1" />
-          <legend><img src="img/caminar.png" alt="Iniciativa" width="20px" height="25px"></legend>
-        </fieldset>
-      </div>
-
-        <div class="col-4">
-        <fieldset>
-          <input type="number" name="" id="" min="1" />
-          <legend><img src="img/velocidad.png" alt="Velocidad" width="20px" height="25px"></legend>
-        </fieldset>
-      </div>
-    </div>
-
-        <label for="" id="">puntos de golpe actuales</label>
-        <input type="number" name="" id="" disabled />
-        <label for="" id="">puntos de golpe temporales</label>
-        <input type="number" name="" id="" disabled />
-
-        <div class="col-6">
-          <label for="" id="">total</label>
-          <input type="number" name="" id="" disabled />
-          dados de golpe
-        </div>
-
-        <div class="col-6">
-          exitos <input type="checkbox" name="" id="" /><input
-            type="checkbox"
-            name=""
-            id=""
-          /><input type="checkbox" name="" id="" /> 
-          <br>
-          fallos
-          <input type="checkbox" name="" id="" /><input
-            type="checkbox"
-            name=""
-            id=""
-          /><input type="checkbox" name="" id="" />
-          <label for="" id="">salvaciones contra muerte</label>
-        </div>
-        <!--tabla-->
-        nombre bonificador daño/tipo
-        <textarea></textarea>
-        ataques y lanzamiento de conjuros equipo
-      </div>
-
-      <div class="col-4">
-        <textarea name="" id=""></textarea>
-        rasgos de personalidad
-
-        <textarea name="" id=""></textarea>
-        ideales
-
-        <textarea name="" id=""></textarea>
-        vinculos
-
-        <textarea name="" id=""></textarea>
-        defectos
-
-        <textarea name="" id=""></textarea>
-        rasgos y atributos
-      </div>
-    </main>
-  </div>
+        <section class="col-4">
+            <textarea name="" id=""></textarea>
+            rasgos de personalidad
+            <textarea name="" id=""></textarea>
+            ideales
+            <textarea name="" id=""></textarea>
+            vinculos
+            <textarea name="" id=""></textarea>
+            defectos
+            <textarea name="" id=""></textarea>
+            rasgos y atributos
+        </section>
+      </main>
     <footer class="col-12">
       Codificado por <a href="#">Gabriel Ivan Carrillo</a>
     </footer>
-  
   </body>
 </html>

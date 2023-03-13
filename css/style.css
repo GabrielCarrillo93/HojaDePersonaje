@@ -4,11 +4,10 @@ html{
 
 
 * {
-  color: #ffffff;
   box-sizing: border-box;
   text-align: center;
-  text-shadow: -1px 0 black, 0 1px #000000, 1px 0 black, 0 -1px black;
 }
+  
 
 
 .col-1 {width: 8.33%;}
@@ -28,14 +27,19 @@ html{
   float: left;
   padding: 15px;
   border: 1px solid red;
+  margin: 10px 0;
 }
 
+h1::first-letter{
+  font-family: 'Berkshire Swash';
+}
 
 body{
   margin-left: 10%;
   margin-right: 10%;
   background-color: #fff2c2;
-  
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
 }
 
 h1{
@@ -92,4 +96,31 @@ input[type="text"]{
   background-color: #ffffcc;
   font-weight:700;
   font-size: 1rem;
+}
+
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table{
+  width: 100%;
+}
+
+.Tname{
+  width: 50%;
+  height: 1rem;
+}
+
+.Tbon{
+  width: 10%;
+  height: 1rem;
+}
+
+.Tdan{
+  width: 40%;
+  height: 1.5rem;
+}
+
+tr:nth-child(even) {
+  background-color: #c9bc94;
 }
